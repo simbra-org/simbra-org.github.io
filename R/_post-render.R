@@ -22,22 +22,22 @@ files <-
 
 for (i in files) {
   if (file_exists(i)) {
-      data_i <- i |> read_lines()
+    data_i <- i |> read_lines()
 
-      data_i <-
+    data_i <-
+      data_i |>
+      magrittr::extract(
         data_i |>
-        magrittr::extract(
-          data_i |>
-            stringr::str_detect(
-              pattern = paste0(
-                "https://abmstudygroup.github.io/simbra-com-br/images/",
-                "simbra-symbol-circular.svg"
-              ),
-              negate = TRUE
-            )
-        )
+          stringr::str_detect(
+            pattern = paste0(
+              "https://simbra-org.github.io/images/",
+              "simbra-symbol-circular.svg"
+            ),
+            negate = TRUE
+          )
+      )
 
-    data_i |>  write_lines(i)
+    data_i |> write_lines(i)
   }
 }
 

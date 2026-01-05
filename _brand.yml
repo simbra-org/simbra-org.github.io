@@ -1,15 +1,16 @@
 meta:
   name:
     short: "SIMBRA"
-    # Brazilian Interdisciplinary Symposium on Agent-Based Models
     long: "Simpósio Interdisciplinar Brasileiro de Modelos Baseados em Agentes"
   link:
     home: https://www.simbra.com.br
   description: |
-    Um espaço de encontro entre pesquisadores e estudantes de diferentes áreas
-    para discutir, experimentar e difundir o uso dos Modelos Baseados em
-    Agentes (ABM) como ferramenta de modelagem e investigação de fenômenos
-    complexos.
+    Somos uma comunidade interdisciplinar dedicada a avançar a Modelagem Baseada
+    em Agentes (ABM) no Brasil como uma ferramenta vital para investigar
+    fenômenos complexos. Ao incentivar a colaboração entre pesquisadores e
+    estudantes de diversas áreas, a organização promove práticas científicas
+    abertas e oferece treinamento técnico em plataformas como NetLogo, Gama e
+    Mesa para resolver desafios contemporâneos.
 
 color:
   palette:

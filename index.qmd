@@ -17,7 +17,7 @@ about:
       target: _blank
     - icon: github
       text: GitHub
-      href: https://github.com/abmstudygroup/simbra-com-br
+      href: https://github.com/simbra-org
       target: _blank
     - icon: instagram
       text: Instagram

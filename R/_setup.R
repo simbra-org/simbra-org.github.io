@@ -1,8 +1,11 @@
 # Load Packages -----
 
+library(downlit)
 library(here)
 library(knitr)
 library(ragg)
+library(showtext)
+library(xml2)
 
 # Set Options -----
 
